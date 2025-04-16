@@ -1,0 +1,24 @@
+name: belajar_dart_application
+description: A sample command-line application.
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.2
+
+# Add regular dependencies here.
+publish_to: none
+dependencies:
+  belajar_dart_library:
+    git: 
+      url: https://github.com/Bangdams/belajar_dart_library.git
+      ref: 1.0.0 # ini bisa pakai branch atau tag
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+
+
+# ket
+# untuk dowbload dependencies bisa pakai
+# dart pub get
+# yang nanti hasil dari download tersebut tersimpan di HOME/.pub-cache/
